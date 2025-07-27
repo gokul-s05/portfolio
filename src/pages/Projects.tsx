@@ -41,8 +41,8 @@ const Projects = () => {
       description: 'Modern portfolio website with smooth animations and responsive design.',
       image: 'src/assets/portfolio.jpg',
       tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-      github: 'https://github.com/gokul-s05/my-portfolio.git',
-      demo: 'https://demo.com'
+      github: 'https://github.com/gokul-s05/portfolio.git',
+      demo: 'https://gokul-s05.github.io/portfolio/'
     },
     {
       title: 'Employee Management System🛄',

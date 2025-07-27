@@ -163,21 +163,21 @@ const Portfolio = () => {
   };
 
   const skills = [
-    { name: 'Python', icon: '/python.png', level: 85 },
-    { name: 'Java', icon: '/java.png', level: 69 },
-    { name: 'Machine Learning', icon: '/machine.png', level: 75 },
-    { name: 'HTML', icon: '/html.png', level: 95 },
-    { name: 'CSS', icon: '/css.png', level: 92 },
-    { name: 'Android Studio', icon: '/android.png', level: 80 },
-    { name: 'C', icon: '/c.png', level: 70 },
-    { name: 'Kali Linux', icon: '/kali.png', level: 90 }
+    { name: 'Python', icon: '/portfolio/images/python.png', level: 85 },
+    { name: 'Java', icon: '/portfolio/images/java.png', level: 69 },
+    { name: 'Machine Learning', icon: '/portfolio/images/machine.png', level: 75 },
+    { name: 'HTML', icon: '/portfolio/images/html.png', level: 95 },
+    { name: 'CSS', icon: '/portfolio/images/css.png', level: 92 },
+    { name: 'Android Studio', icon: '/portfolio/images/android.png', level: 80 },
+    { name: 'C', icon: '/portfolio/images/c.png', level: 70 },
+    { name: 'Kali Linux', icon: '/portfolio/images/kali.png', level: 90 }
   ];
 
   const projects = [
     {
       title: 'Football Analytics Platform⚽',
       description: 'Built an AI platform leveraging ML and real-time data to analyze and predict football team performance.',
-      image: '/football.jpg',
+      image: '/portfolio/images/football.jpg',
       tech: ['Python', 'Streamlit', 'OpenCV', 'YOLOv8'],
       github: 'https://github.com/gokul-s05/football_analysis.git',
       demo: 'unavailable'
@@ -185,7 +185,7 @@ const Portfolio = () => {
     {
       title: 'Virtual Mouse🖱️',
       description: 'Created a gesture-controlled virtual mouse using OpenCV for touchless cursor control via real-time hand tracking.',
-      image: '/mouse.jpg',
+      image: '/portfolio/images/mouse.jpg',
       tech: ['OpenCV', 'MediaPipe', 'Python','PyAutoGUI'],
       github: 'https://github.com/gokul-s05/virtual_mouse.git',
       demo: 'unavailable'
@@ -193,7 +193,7 @@ const Portfolio = () => {
     {
       title: 'Profile 360👤',
       description: 'Built an Android app in Java for managing member profiles with image support and intuitive user interface.',
-      image: '/web.webp',
+      image: '/portfolio/images/web.webp',
       tech: ['Java', 'XML', 'Java for API','Firebase'],
       github: 'https://github.com/gokul-s05/profile360.git',
       demo: 'unavailable'
@@ -201,7 +201,7 @@ const Portfolio = () => {
     {
       title: 'Cyber Security Tools🔒',
       description: 'Developed cybersecurity tools including Caesar cipher, pixel-based image encryption, keylogger, and password strength checker for enhanced data protection.',
-      image: '/tools.webp',
+      image: '/portfolio/images/tools.webp',
       tech: ['Python', 'Git','Tkinter'],
       github: 'https://github.com/gokul-s05/Intern_Project.git',
       demo: 'https://cyber-security-tools.streamlit.app/'
@@ -209,7 +209,7 @@ const Portfolio = () => {
     {
       title: 'Portfolio Website🌐',
       description: 'Modern portfolio website with smooth animations and responsive design.',
-      image: '/portfolio.jpg',
+      image: '/portfolio/images/portfolio.jpg',
       tech: ['React', 'Framer Motion', 'Tailwind CSS'],
       github: 'https://github.com/gokul-s05/my-portfolio.git',
       demo: 'unavailable'
@@ -217,7 +217,7 @@ const Portfolio = () => {
     {
       title: 'Employee Management System🛄',
       description: 'A Django-based Employee Management System with PostgreSQL, Bootstrap 5 UI, and Crispy Forms for smooth CRUD operations.',
-      image: '/employee.png',
+      image: '/portfolio/images/employee.png',
       tech: ['Django', 'PostgreSQL', 'Bootstrap', 'Git'],
       github: 'https://github.com/gokul-s05/employee-management-system.git',
       demo: 'unavailable'
@@ -401,7 +401,7 @@ const Portfolio = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/gokul.jpg"
+                    src="/portfolio/images/gokul.jpg"
                     alt="Gokul - Profile"
                     className="w-full h-full rounded-full object-cover"
                   />
@@ -647,7 +647,7 @@ const Portfolio = () => {
               My professional journey and qualifications
             </p>
             <Button asChild size="lg" className="group">
-              <a href="/Gokul's Resume.pdf" download>
+              <a href="/portfolio/images/Gokul's Resume.pdf" download>
                 <Download size={20} className="mr-2 group-hover:animate-bounce" />
                 Download PDF
               </a>
